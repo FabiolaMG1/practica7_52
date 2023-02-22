@@ -1,0 +1,68 @@
+/* selector por clase */
+
+/* h1.titulo{
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px gold;
+} */
+
+
+/* selector por atrubutos. que tenga un ayributo sin importar el valor*/
+
+/* p[lang]{
+    background-color: blueviolet;
+} */
+
+/* p[lang=en]{
+    background-color: blueviolet;
+} 
+ */
+
+/* a[href$="org"] {
+    background-color: aqua;
+}
+
+a[href^="#"] {
+    background-color: brown;
+}
+
+a[href*="empresa"] {
+    font-size: 85px;
+}
+
+a[href~="empresa"] {
+    font-size: 85px;
+} */
+
+
+/* selector de decendientes */
+/* main p {
+    border-bottom: 1px dashed black;
+} */
+
+/* selector de hijo directo */
+/*  main > p {
+    border-bottom: 1px dashed black;
+}   */
+
+/* h3 + p {
+    border-top: 5px solid red;
+    border-radius:  5px;
+} */
+
+h3 ~ p {
+    border-top: 5px solid red;
+    border-radius:  5px;
+}
+
+/* 
+. clase
+# id
+[atributo] atributo difererente a clase y id
+ta1, tag2  lista
+tag1 tag2 decendientes
+tag1 + tag2 hermanos adyacentes
+tag1 > tag2 hijos directos
+tag1 ~ tag2 hermano general
+
+
+*/
